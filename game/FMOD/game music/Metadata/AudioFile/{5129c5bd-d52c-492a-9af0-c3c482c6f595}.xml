@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5129c5bd-d52c-492a-9af0-c3c482c6f595}">
+		<property name="assetPath">
+			<value>258348__tristan-lohengrin__spaceship-atmosphere-03.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>90.021678004535147</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b501917-3c10-4871-8558-8bb0e4a2ac82}</destination>
+		</relationship>
+	</object>
+</objects>

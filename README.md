@@ -18,3 +18,6 @@ The game is based on a retro game, so 8-bit music makes sense. I’ll have a the
 ## Interface
 The player has two options for all the menus, to progress forward, and skip to the game. I was thinking a simple sequence of 8-bit notes pitched up would work for the progression and perhaps re-using the “pew” sound to skip. There could also be a sound for typing letters on the high score menu and another for backspacing.
 
+## Sources (so far)
+https://freesound.org/people/alphatrooper18/sounds/362423/
+https://freesound.org/people/Tristan_Lohengrin/sounds/258348/
