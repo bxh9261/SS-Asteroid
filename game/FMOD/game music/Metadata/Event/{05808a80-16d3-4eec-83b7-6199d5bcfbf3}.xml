@@ -111,6 +111,9 @@
 		<property name="length">
 			<value>20</value>
 		</property>
+		<property name="volume">
+			<value>-20</value>
+		</property>
 		<relationship name="automators">
 			<destination>{08f50eb5-7167-40e8-a1f4-5a1623be2e73}</destination>
 		</relationship>
