@@ -35,6 +35,7 @@ public class GameOver : MonoBehaviour {
     //for some reason it was double-saving scores. this fixed it.
     bool ranOnce;
 
+    AudioSource[] aud;
 
     // Use this for initialization
     void Start() {
@@ -52,6 +53,8 @@ public class GameOver : MonoBehaviour {
 
         //sets default high scores if no text exists
         defaultHighScores();
+
+        aud = GetComponents<AudioSource>();
     }
 
     // Update is called once per frame
@@ -66,9 +69,16 @@ public class GameOver : MonoBehaviour {
         //go back to main menu
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Story");
+            StartCoroutine(Skip());
         }
 
+    }
+
+    public IEnumerator Skip()
+    {
+        aud[1].Play();
+        yield return new WaitForSeconds(0.5f);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Story");
     }
 
     //stars -- same as other scenes
@@ -150,6 +160,7 @@ public class GameOver : MonoBehaviour {
         //adds spaces if they give less than three letters (crashes otherwise)
         if (Input.GetKeyDown(KeyCode.Return))
         {
+            aud[0].Play();
             while (initInput.Length < 3)
             {
                 initInput += " ";

@@ -90,7 +90,7 @@ public class StoryManager : MonoBehaviour {
     public IEnumerator Skip()
     {
         sounds[1].Play();
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(0.5f);
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
 

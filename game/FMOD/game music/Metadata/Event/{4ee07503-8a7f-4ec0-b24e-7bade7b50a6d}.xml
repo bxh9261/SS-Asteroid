@@ -36,7 +36,7 @@
 			<destination>{0a9b2121-0ed7-4480-9ecd-c281c564aed2}</destination>
 		</relationship>
 		<relationship name="banks">
-			<destination>{d5e704ab-254e-40aa-9775-223ce8d74ad7}</destination>
+			<destination>{b2cc53e9-8e13-4477-9f33-5721f5a14345}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{f7c08198-129d-4f81-89b9-f6993ecca07d}">
@@ -112,6 +112,9 @@
 	<object class="SingleSound" id="{a00f253c-6094-4c0e-b4c6-9ea746baa947}">
 		<property name="length">
 			<value>76</value>
+		</property>
+		<property name="looping">
+			<value>true</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{5129c5bd-d52c-492a-9af0-c3c482c6f595}</destination>

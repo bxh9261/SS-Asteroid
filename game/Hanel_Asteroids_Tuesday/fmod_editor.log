@@ -7,7 +7,7 @@
 [LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
 [LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000001B039F02DC8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000002227B252188 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -15,157 +15,15 @@
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] SystemI::createSound                     : filename = ..\FMOD\game music\Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000001B03A422D18 : node = 000001B03746D1F0
-[LOG] SystemI::createSound                     : add node to async list : head = 000001B07BA6F248.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001B03A422D18
-[LOG] SystemI::createSoundInternal             :     Create name='..\FMOD\game music\Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B03746D300
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ss asteroid openin', format=2, channels=2, frequency=48000, lengthbytes=814016, lengthpcm=2835691, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.592468.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001B03A422D18
-[LOG] SoundI::getSubSound                      : sound 000001B03A422D18.  Subsound index 0 / 1
-[LOG] SoundI::release                          : ss asteroid openin (000001B03A421DE8)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B07B458538)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B03A4224A8)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016100FF35C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFDD5680A0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFDD568070
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFDD568170
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFDD568230
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001B038AA75C8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Woosh', format=2, channels=2, frequency=48000, lengthbytes=22496, lengthpcm=126601, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.625200.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016100FF35C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFDD5680A0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFDD568070
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFDD568170
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFDD568230
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001B038AA75C8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='big-explosion', format=2, channels=2, frequency=48000, lengthbytes=17216, lengthpcm=72082, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.536277.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 00000016100FF35C
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFFDD5680A0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFFDD568070
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFFDD568170
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFFDD568230
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000001B038AA75C8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='small-explosion', format=2, channels=2, frequency=48000, lengthbytes=17504, lengthpcm=72082, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.442074.
-[LOG] SystemI::createSound                     : filename = ..\FMOD\game music\Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000001B03A421DE8 : node = 000001B035CD2240
-[LOG] SystemI::createSound                     : add node to async list : head = 000001B07BA6F248.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001B03A421DE8
-[LOG] SystemI::createSoundInternal             :     Create name='..\FMOD\game music\Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B035CD2350
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='258348__tristan-lohengrin__spaceship-atmosphere-03', format=2, channels=2, frequency=48000, lengthbytes=851968, lengthpcm=4321040, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.848213.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001B03A421DE8
-[LOG] SoundI::getSubSound                      : sound 000001B03A421DE8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : ss asteroid openin (000001B03A422D18)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B035A12618)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B03A422148)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] SystemI::createSound                     : filename = ..\FMOD\game music\Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000001B03A422148 : node = 000001B07AFAE6F0
-[LOG] SystemI::createSound                     : add node to async list : head = 000001B07BA6F248.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001B03A422148
-[LOG] SystemI::createSoundInternal             :     Create name='..\FMOD\game music\Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B07AFAE800
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ss asteroid openin', format=2, channels=2, frequency=48000, lengthbytes=814016, lengthpcm=2835691, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.592468.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001B03A422148
-[LOG] SoundI::getSubSound                      : sound 000001B03A422148.  Subsound index 0 / 1
-[LOG] SoundI::release                          : 258348__tristan-lohengrin__spaceship-atmosphere-03 (000001B03A421DE8)
-[LOG] SoundI::release                          :     258348__tristan-lohengrin__spaceship-atmosphere-03 (000001B07BA6FC58)
-[LOG] SoundI::release                          :     258348__tristan-lohengrin__spaceship-atmosphere-03 (000001B03A4224A8)
-[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
-[LOG] SystemI::createSound                     : filename = ..\FMOD\game music\Build\Desktop/Master.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSound                     : setdata soundi = 000001B03A4224A8 : node = 000001B07AFAEE70
-[LOG] SystemI::createSound                     : add node to async list : head = 000001B07BA6F248.  list count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001B03A4224A8
-[LOG] SystemI::createSoundInternal             :     Create name='..\FMOD\game music\Build\Desktop/Master.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 1724768
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 6688
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001B07AFAEF80
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='ss asteroid openin', format=2, channels=2, frequency=48000, lengthbytes=814016, lengthpcm=2835691, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.592468.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001B03A4224A8
-[LOG] SoundI::getSubSound                      : sound 000001B03A4224A8.  Subsound index 0 / 1
-[LOG] SoundI::release                          : ss asteroid openin (000001B03A422148)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B035A12618)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B03A422D18)
-[LOG] SoundI::release                          : ss asteroid openin (000001B03A4224A8)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B035A127B8)
-[LOG] SoundI::release                          :     ss asteroid openin (000001B035A31E08)
-[LOG] SoundI::release                          :  (000001B07B154D68)
-[LOG] SoundI::release                          :     big-explosion (000001B07BA6FAB8)
-[LOG] SoundI::release                          :  (000001AE5B87F308)
-[LOG] SoundI::release                          :     small-explosion (000001B07BA702D8)
-[LOG] SoundI::release                          :  (000001B07B155498)
-[LOG] SoundI::release                          :     Woosh (000001B07BA6F918)
+[LOG] SoundI::release                          : ss asteroid openin (0000022232FFF758)
+[LOG] SoundI::release                          :     ss asteroid openin (000002222F79B428)
+[LOG] SoundI::release                          :     ss asteroid openin (0000022232FFFE18)
 [LOG] Thread::callback                         : FMOD Studio update thread finished.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
@@ -178,6 +36,9 @@
 [LOG] SystemI::close                           : Closed.
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 123)

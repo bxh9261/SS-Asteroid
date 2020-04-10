@@ -34,10 +34,14 @@ public class SceneManager : MonoBehaviour {
     public List<GameObject> stars;
     GameObject star;
 
+    FMODUnity.StudioEventEmitter musicEmitter;
+
     // Use this for initialization
     void Start () {
         //instationtiatingng
         aud = GetComponents<AudioSource>();
+        musicEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
+        musicEmitter.SetParameter("Level", 0.0f);
         am = GameObject.Find("Scene Manager").GetComponent<AsteroidManager>();
         bm = GameObject.Find("Scene Manager").GetComponent<BulletManager>();
 
@@ -93,6 +97,7 @@ public class SceneManager : MonoBehaviour {
             //Debug.Log(level);
             am.SpeedUP();
         }
+        musicEmitter.SetParameter("Level", (float)level-1);
 
     }
 

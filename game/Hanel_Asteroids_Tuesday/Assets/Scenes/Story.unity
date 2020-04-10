@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/Level Music
+  Event: event:/Main Menu Music
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1

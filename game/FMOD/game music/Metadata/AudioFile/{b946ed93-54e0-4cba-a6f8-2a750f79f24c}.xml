@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{b946ed93-54e0-4cba-a6f8-2a750f79f24c}">
+		<property name="assetPath">
+			<value>s.s. asteroid.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>59.076916099773243</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b501917-3c10-4871-8558-8bb0e4a2ac82}</destination>
+		</relationship>
+	</object>
+</objects>
