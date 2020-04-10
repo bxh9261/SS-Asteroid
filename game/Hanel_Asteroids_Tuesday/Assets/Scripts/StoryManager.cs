@@ -83,9 +83,16 @@ public class StoryManager : MonoBehaviour {
         //for skipping the story
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+            StartCoroutine(Skip());
         }
 	}
+
+    public IEnumerator Skip()
+    {
+        sounds[1].Play();
+        yield return new WaitForSeconds(1);
+        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+    }
 
     //make 3 random stars
     public void SpawnStars()
