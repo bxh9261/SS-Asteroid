@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using FMODUnity;
+using FMOD.Studio;
 
 public class StoryManager : MonoBehaviour {
 
@@ -39,11 +41,21 @@ public class StoryManager : MonoBehaviour {
     //music and bloop sound
     public AudioSource[] sounds;
 
+    GameObject music;
+
+    //FMOD
+    [Range(0.0f, 1.0f)]
+    public float volume;
+    private Bus masterBus;
+
     // Use this for initialization
     void Start ()
     {
         //initializing
+        masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
+        SetMasterBusVolume(1.0f);
         sounds = GetComponents<AudioSource>();
+        music = GameObject.Find("Music");
         textRec = new Rect(DIST_FROM_SIDE, Screen.height / 2 + DIST_FROM_SIDE, Screen.width - DIST_FROM_SIDE * 2, Screen.height / 2 - DIST_FROM_SIDE * 3);
         nameRec = new Rect(DIST_FROM_SIDE, Screen.height / 2, Screen.width / 4, DIST_FROM_SIDE);
         stars = new List<GameObject>();
@@ -76,8 +88,19 @@ public class StoryManager : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.Return))
         {
             enterPresses++;
-            sounds[0].Play();
-            //sound
+            if (enterPresses >= 0)
+            {
+                SetMasterBusVolume(0.2f);
+            }
+            else
+            {
+                SetMasterBusVolume(1.0f);
+            }
+            if(enterPresses >= 13)
+            {
+                Destroy(music);
+            }
+            StartCoroutine(Dialogue());
         }
 
         //for skipping the story
@@ -86,6 +109,15 @@ public class StoryManager : MonoBehaviour {
             StartCoroutine(Skip());
         }
 	}
+
+    public IEnumerator Dialogue()
+    {
+        sounds[0].Play();
+        //sound
+        yield return new WaitForSeconds(0.2f);
+        sounds[enterPresses + 2].Play();
+        sounds[enterPresses + 1].Pause();
+    }
 
     public IEnumerator Skip()
     {
@@ -113,6 +145,8 @@ public class StoryManager : MonoBehaviour {
             //Debug.Log(star);
         }
     }
+
+
 
     //move the stars
     public void ShipMovementIllusion(GameObject str)
@@ -157,7 +191,11 @@ public class StoryManager : MonoBehaviour {
         }
     }
 
-    
+    //set music volume (0-1)
+    public void SetMasterBusVolume(float volume)
+    {
+        masterBus.setVolume(volume);
+    }
 
     //progress through the story
     private void OnGUI()
@@ -171,7 +209,7 @@ public class StoryManager : MonoBehaviour {
         }
 
         //22 lines in the story
-        else if(enterPresses <= 22)
+        else if(enterPresses <= 21)
         {
             ship.transform.position = new Vector3(0, 2, 0);
             GUI.Box(textRec, script[enterPresses], johnPetrov);
@@ -194,22 +232,21 @@ public class StoryManager : MonoBehaviour {
         {   "Hooray! Another space mission! I’m so excited!",
             "Da, eez very exciting John. Space eez very cool, and very beeg. Almost as beeg as Russia. ",
             "Uh, Petrov? I think space is actually bigger than Russia.",
-            "Don’t say zat, John! Eef you said zat in Russia, zey would turn your head into Borscht!",
+            "Don’t say zat, John! Eef you said zat in Russia, zey would turn your head into Borscht!", //sounds[5]
             "Sorry!",
             "*bzzt bzzt*",
             "Hey guys! This is Steve from mission control! How’s the weather up there?",
             "It’s great! Clear skies!",
-            "Da, eez very nice. When do we get to beeg red planet? ",
+            "Da, eez very nice. When do we get to beeg red planet? ", //10
             "Wait, big red planet? Aren’t you going to Mars? The big orange one? With the spot on it?",
             "Zat’s Jupiter you moldy pierogi!",
             "steve what the heck how do you work at nasa",
             "Uhhh…",
-            "wait… was zat an asteroid?",
+            "wait… was zat an asteroid?", //15
             "Oh no! Steve! Steve! We’re going through the asteroid belt!",
             "Uhhh…",
             "Geev us somezing Stephen! ",
-            "*silence*",
-            "Steve?",
+            "Steve?", //20
             "I got it! I'm now giving your ship manual controls. Use the UP arrow to accelerate, and the LEFT and RIGHT arrows to rotate. I’ve also given you access to the laser. Use SPACE to shoot it. ",
             "Oh my gosh! We have a LASER? That’s so cool! We got this! Thanks Steve!",
             "Steve, you can program a ship but you don’t know ze difference between mars and Jupiter?",
@@ -220,22 +257,21 @@ public class StoryManager : MonoBehaviour {
         {   "John",
             "Petrov",
             "John",
-            "Petrov",
+            "Petrov", //5
             "John",
             " ",
             "Steve",
             "John",
-            "Petrov",
+            "Petrov", //10
             "Steve",
             "Petrov",
             "John",
             "Steve",
-            "Petrov",
+            "Petrov", //15
             "John",
             "Steve",
             "Petrov",
-            " ",
-            "John",
+            "John", //20
             "Steve",
             "John",
             "Petrov",

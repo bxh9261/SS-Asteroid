@@ -30,6 +30,8 @@ public class AsteroidManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+
+
         //instantiating stuff yay
         manage = GameObject.Find("Scene Manager").GetComponent<SceneManager>();
         ship = GameObject.Find("Scene Manager").GetComponent<Ship>();
@@ -48,6 +50,11 @@ public class AsteroidManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        if (manage.paused)
+        {
+            return;
+        }
+
         //I use circle collision since the objects rotate or are round
         Circle();
 

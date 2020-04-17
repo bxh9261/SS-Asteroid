@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
+using FMOD.Studio;
 
 public class SceneManager : MonoBehaviour {
 
@@ -34,11 +36,21 @@ public class SceneManager : MonoBehaviour {
     public List<GameObject> stars;
     GameObject star;
 
+    public bool paused;
+
     FMODUnity.StudioEventEmitter musicEmitter;
+
+    [Range(0.0f, 1.0f)]
+    public float volume;
+    private Bus masterBus;
 
     // Use this for initialization
     void Start () {
+        paused = false;
+
         //instationtiatingng
+        masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
+        SetMasterBusVolume(0.6f);
         aud = GetComponents<AudioSource>();
         musicEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
         musicEmitter.SetParameter("Level", 0.0f);
@@ -53,16 +65,30 @@ public class SceneManager : MonoBehaviour {
         //sorry I've been coding for like 6 hours ignore that
         SpawnStars();
     }
-	
-	// Update is called once per frame
-	void Update () {
+
+    // Update is called once per frame
+    void Update()
+    {
         LevelChanger();
 
-        if(am.lives <= 0)
+        if (am.lives <= 0)
         {
             //to send score to game over scene
             PlayerPrefs.SetInt("Score", points);
             UnityEngine.SceneManagement.SceneManager.LoadScene("GameOver");
+        }
+
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            paused = !paused;
+            if (paused)
+            {
+                SetMasterBusVolume(0.2f);
+            }
+            else
+            {
+                SetMasterBusVolume(0.6f);
+            }
         }
     }
 
@@ -128,6 +154,12 @@ public class SceneManager : MonoBehaviour {
             stars.Add(star);
             //Debug.Log(star);
         }
+    }
+
+    //set music volume (0-1)
+    public void SetMasterBusVolume(float volume)
+    {
+        masterBus.setVolume(volume);
     }
 
 }

@@ -1,0 +1,2918 @@
+<REAPER_PROJECT 0.1 "5.987/x64" 1586898357
+  RIPPLE 0
+  GROUPOVERRIDE 0 0 0
+  AUTOXFADE 1
+  ENVATTACH 1
+  POOLEDENVATTACH 0
+  MIXERUIFLAGS 11 48
+  PEAKGAIN 1
+  FEEDBACK 0
+  PANLAW 1
+  PROJOFFS 0 0 0
+  MAXPROJLEN 0 600
+  GRID 3199 8 1 8 1 0 0 0
+  TIMEMODE 1 5 -1 30 0 0 -1
+  VIDEO_CONFIG 0 0 256
+  PANMODE 3
+  CURSOR 80
+  ZOOM 2.57164075801568 0 0
+  VZOOMEX 6
+  USE_REC_CFG 0
+  RECMODE 1
+  SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
+  LOOP 0
+  LOOPGRAN 0 4
+  RECORD_PATH "" ""
+  <RECORD_CFG
+  >
+  <APPLYFX_CFG
+  >
+  RENDER_FILE "output"
+  RENDER_PATTERN $track
+  RENDER_FMT 0 2 44100
+  RENDER_1X 0
+  RENDER_RANGE 3 0 0 18 1000
+  RENDER_RESAMPLE 3 0 1
+  RENDER_ADDTOPROJ 0
+  RENDER_STEMS 8
+  RENDER_DITHER 0
+  TIMELOCKMODE 1
+  TEMPOENVLOCKMODE 1
+  ITEMMIX 0
+  DEFPITCHMODE 589824 0
+  TAKELANE 1
+  SAMPLERATE 44100 0 0
+  <RENDER_CFG
+    ZXZhdxgAAA==
+  >
+  LOCK 1
+  <METRONOME 6 2
+    VOL 0.25 0.125
+    FREQ 800 1600 1
+    BEATLEN 4
+    SAMPLES "" ""
+    PATTERN 2863311530 2863311529
+  >
+  GLOBAL_AUTO -1
+  TEMPO 120 4 4
+  PLAYRATE 1 0 0.25 4
+  SELECTION 80 144
+  SELECTION2 80 144
+  MASTERAUTOMODE 0
+  MASTERTRACKHEIGHT 0 0
+  MASTERPEAKCOL 16576
+  MASTERMUTESOLO 0
+  MASTERTRACKVIEW 0 0.6667 0.5 0.5 0 0 0
+  MASTERHWOUT 0 0 1 0 0 0 0 -1
+  MASTER_NCH 2 2
+  MASTER_VOLUME 1 0 -1 -1 1
+  MASTER_FX 1
+  MASTER_SEL 0
+  <MASTERPLAYSPEEDENV
+    ACT 0 -1
+    VIS 0 1 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 0 -1 -1
+  >
+  <TEMPOENVEX
+    ACT 0 -1
+    VIS 1 0 1
+    LANEHEIGHT 0 0
+    ARM 0
+    DEFSHAPE 1 -1 -1
+  >
+  MARKER 1 0 "" 1 0 1 R
+  <REGIONRENDER 1
+    TRACK {A79FD96E-C398-48A0-8605-F0327F9D1D8D}
+  >
+  MARKER 1 64 "" 1 0 1 R
+  MARKER 2 80 "" 1 0 1 R
+  <REGIONRENDER 2
+    TRACK {31BCC0E8-D3EF-427A-B352-EB0389D40183}
+  >
+  MARKER 2 144 "" 1 0 1 R
+  <PROJBAY
+  >
+  <TRACK {A79FD96E-C398-48A0-8605-F0327F9D1D8D}
+    NAME Menus
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.99354619307878 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A79FD96E-C398-48A0-8605-F0327F9D1D8D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 24 52 655 408
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+    >
+  >
+  <TRACK {137D89A7-411D-48F5-9A31-61B70B938A2C}
+    NAME Synth
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {137D89A7-411D-48F5-9A31-61B70B938A2C}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 377 68 556 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROgAAQD9t53s+AACAP85NAD/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {986136DD-B4EF-4AF2-8F37-6994A8EED51D}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAASAAAAAEAAAAAAAAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAVkVSQkdFTgAYAAAAAAAAAJHgV0QAAIA/AADEQm+BSEIAAIC/
+        AHN3ZWV0dmVyYm8AAAAAAA==
+      >
+      PRESETNAME sweetverbo
+      FLOATPOS 0 0 0 0
+      FXID {02F8E101-CC8F-4F3A-BDF8-1FD24ABFD216}
+      WAK 0
+    >
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {8CD26E9D-B349-4CBA-A1E7-E73BD7C8E5F2}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A389976E-C88F-43CD-9365-BB948B00B04A}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {A7B198EB-02EA-4ED8-81CF-8F1BB1F8F3B9}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 8
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {9524A977-D4F4-4EF7-90D2-52B3F38B52DE}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7FB36423-9215-43D4-BB40-AD17785B8951}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {4015F7C0-1907-4921-A3AC-B3C4F7E0088D}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {4C38CDDA-C714-4587-BAF7-BCD7678A57D6}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4C032AC8-4C79-40B4-9F26-7F0A84A21772}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {106FC95F-022D-45D4-8858-89A07956CE65}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 24
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D006A993-10CF-47B6-8EE0-647D765F41CB}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {408A4DF8-CB3F-4533-BED7-012557083CA9}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {CDB2B657-3886-452C-AF19-0C9442E65413}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {31F5E22E-3CF2-4F94-8C90-9976F7120935}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {88D26906-58A0-490B-8514-3096FF8BC1E2}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {B7301814-B9F9-4287-BF57-BC456AD58CF7}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {120A497B-505E-4550-844F-7C551A6A9AA9}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {EEDE7C09-8326-41A4-863F-3091BAD1B010}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {AF4BFF82-164B-48DD-B20E-A6D8B094175B}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 48
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {2BB84D8F-C10E-4A08-897A-2FAA08797D33}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {939029CA-561A-461E-BBCE-0BF24B026BB5}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {324A115B-3B72-437D-8AC8-B7CD60A7D485}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 56
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E98FE9D8-20C3-482C-B974-C0319626DD77}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B2FCE58D-1D6C-4537-9B5B-0B23FBC21939}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {383F6D16-C9DE-4B1D-B10D-D177C3CE3F21}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 48 64
+        E 96 80 48 40
+        E 0 90 4d 64
+        E 72 80 4d 40
+        E 0 90 48 64
+        E 72 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 46 64
+        E 96 80 46 40
+        E 0 90 4b 64
+        E 72 80 4b 40
+        E 0 90 46 64
+        E 72 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 3d 64
+        E 48 80 3d 40
+        E 0 90 44 64
+        E 96 80 44 40
+        E 0 90 49 64
+        E 72 80 49 40
+        E 0 90 44 64
+        E 72 80 44 40
+        E 0 90 49 64
+        E 48 80 49 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 96 80 41 40
+        E 0 90 3a 64
+        E 48 80 3a 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+      >
+    >
+  >
+  <TRACK {CA4ACBD4-091A-4D3A-8C2F-635E29903596}
+    NAME Bass
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.62932758817064 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {CA4ACBD4-091A-4D3A-8C2F-635E29903596}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 638 51 728 566
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROpzEQD8AAAAAAACAP85NAD/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {89E15555-F04C-46C1-B360-14829D5FB0AD}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQAAAAEAAAAAAAAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAVkVSQkdFTgAYAAAAAAAAAJHgV0QAAIA/3rK7QgAAyEIAAIC/IUVDSE9HRU4AHAAAAMv4tkC1I3VCXc3T
+        P6LHXz+ZUa88kc2MQJzEAD8=
+        AHN3ZWV0dmVyYm8AAAAAAA==
+      >
+      PRESETNAME sweetverbo
+      FLOATPOS 0 0 0 0
+      FXID {35DF99E9-0255-4272-9162-C1AAFFCDCBEF}
+      WAK 0
+    >
+    <ITEM
+      POSITION 16
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {41B8A5D5-B62F-4966-9E51-27491F84E6EC}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {11927617-D064-40E3-AE24-C031BD2C1700}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {83487E32-64F2-485C-AE77-2DF796A60E98}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 96 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 96 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 96 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 144 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 24
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CE3C2B34-E497-4B72-9EE8-FA588CE6B5C7}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3DE3B190-07F9-4A08-83BE-1CB96E4E2AA8}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {CE10B6FD-2463-4ED8-9B5E-DD8B12C6B06E}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 96 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 96 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 96 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 144 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B1FA6B9A-834B-4E9F-ADC0-AE2C9233A965}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {6DCD8484-168D-4F63-B693-298490122B95}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {BFCAD2EF-39B7-4775-9F17-294024FB5D1E}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 96 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 96 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 96 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 144 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A7313FE2-C555-4191-9CFF-64907963E55B}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DE604336-EDFE-4238-B68E-DCE83102F4AB}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {2311C961-CA91-435C-B730-EBC711757DDB}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 40
+        e 0 80 35 40
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 96 90 29 64
+        e 0 90 35 64
+        E 48 80 29 00
+        e 0 80 35 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 96 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 96 90 2c 64
+        e 0 90 38 64
+        E 48 80 2c 00
+        e 0 80 38 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 0 90 27 64
+        e 0 90 33 64
+        E 48 80 27 00
+        e 0 80 33 00
+        E 144 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {34ADE7D7-0182-4089-A75E-CEF470FCCB85}
+    NAME Kick
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.32759970788183 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {34ADE7D7-0182-4089-A75E-CEF470FCCB85}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 516 64 728 566
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
+        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABuAQAAAQAAAAAAEAA=
+        QzpcVXNlcnNcYnJhZG1cRG9jdW1lbnRzXElHTUUtQXNzaWdubWVudHNcSUdNRS02NzBcUHJvamVjdCAyXEF1ZGlvXDM0NDc1N19fd2F2ZXBsYXktb2xkX19wdW5jaHkt
+        dHJhbmNlLWtpY2stNC53YXYAAAAAAAAA8D8AAAAAAADgPwAAAAAAAPA/AAAAAAAAAAAAAAAAAADwP5qZmZmZmbE/zczMzMzM6z8AAAAAAAAAAJqZmZmZmck//Knx0k1i
+        QD/8qfHSTWJAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAA4D8BAAAAAAAAAAAAAAAAAAAAAADwP0AAAABVVVVVVVXFP/////8AAAAAAAAAAAAA
+        AAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM6kISEaZZA/AAAAAAAA8D/8qfHSTWIwPwAAAAAAAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {ADBF08DE-A984-4D20-8356-537F9DA9A4E5}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQAAAAEAAAAAABAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAIUVDSE9HRU4AHAAAAAAAAAAAAMhCAAAgQQAAAD8AAIA+AAAAAAAAAD9WRVJCR0VOABgAAAAAAAAAAAB6
+        RAAAgD8w+zdCAADIQgAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {C5C62AFE-B589-462F-926A-421CD4CEDBD8}
+      WAK 0
+    >
+    <ITEM
+      POSITION 31
+      SNAPOFFS 0
+      LENGTH 1
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D7DD61DF-5438-4ACE-8E6E-8B2368B556F8}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 7 14
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F7D62B13-5FE9-497F-99A4-3EB3124D75A5}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {3C68B595-455E-45FC-BEA0-8780CE36EEBD}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        e 0 90 33 60
+        e 48 80 33 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 32
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {B51121F2-86A5-4A9F-A497-9C1C891A265B}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C655D13F-3DBF-4704-8523-FB9EC3B8114A}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {7D23DB95-A928-4F45-8D58-2847AB46BB49}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 40
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {A372636F-A25A-422D-9664-E2F38CD26658}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {F91EA62F-60D8-41A5-A1E4-A4D7EFE7645A}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {11B7CB96-9D9C-4A7D-87DE-AD4AEAB9F8F9}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        e 0 90 33 60
+        e 48 80 33 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {31BCC0E8-D3EF-427A-B352-EB0389D40183}
+    NAME Game
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 1 1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {31BCC0E8-D3EF-427A-B352-EB0389D40183}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+  >
+  <TRACK {A95ABB19-EA75-40E9-82F2-722C989FA451}
+    NAME Synth
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A95ABB19-EA75-40E9-82F2-722C989FA451}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 426 60 556 484
+      SHOW 0
+      LASTSEL 0
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROpzEQD9t53s+AACAP85NAD/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {481375BD-351D-4B6C-883E-BDC2281EB5A3}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAASAAAAAEAAAAAAAAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAVkVSQkdFTgAYAAAAAAAAAJHgV0QAAIA/AADEQm+BSEIAAIC/
+        AHN3ZWV0dmVyYm8AAAAAAA==
+      >
+      PRESETNAME sweetverbo
+      FLOATPOS 0 0 0 0
+      FXID {343AFFA4-62B9-410D-81A9-A9D3554FCDCF}
+      WAK 0
+    >
+    <ITEM
+      POSITION 80
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {6AF68812-1DCC-489C-ABFF-AABF7B43E82D}
+      IID 42
+      NAME "3x Osc 1 - game.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {50E49214-B4DD-4123-AB23-2863C29B518A}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {8D6896F1-80FC-4FE5-A84F-5930FA0EE4E8}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {DC7BE9CD-9D35-4EB1-BFF3-8125C1225CF1}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 45
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {D199B3DD-0329-4E3D-8935-2EBFB3E7C10F}
+      IID 42
+      NAME "3x Osc 1 - game.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {09331A30-AD5F-4DC8-B189-211B7D01F9B0}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {FDFB8A90-C2D7-433F-8C40-1ADB2FD28CDB}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {DC7BE9CD-9D35-4EB1-BFF3-8125C1225CF1}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 45
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 112
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C2ED514C-70B3-4E05-9F30-FA7141FA7154}
+      IID 42
+      NAME "3x Osc 1 - game.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {A4850962-0737-4816-B161-190FA56A2A89}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {E5D7F0FC-C4F7-49A4-A555-58271586416B}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {DC7BE9CD-9D35-4EB1-BFF3-8125C1225CF1}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 45
+        VELLANE -1 100 0
+      >
+    >
+    <ITEM
+      POSITION 128
+      SNAPOFFS 0
+      LENGTH 16
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {E9C6F705-1F4E-47F5-AFD5-0412F8EA5652}
+      IID 42
+      NAME "3x Osc 1 - game.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {4A920D99-E0A6-47B0-AA0C-1A517BCCAF34}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {FED26040-1A38-45AB-B0AB-EA5223D198BD}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 41 64
+        E 48 80 41 40
+        E 0 90 45 64
+        E 48 80 45 40
+        E 0 90 48 64
+        E 48 80 48 40
+        E 0 90 4d 64
+        E 48 80 4d 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 48 80 4b 40
+        E 0 90 3f 64
+        E 48 80 3f 40
+        E 0 90 43 64
+        E 48 80 43 40
+        E 0 90 46 64
+        E 48 80 46 40
+        E 0 90 4b 64
+        E 47 80 4b 40
+        E 1 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {DC7BE9CD-9D35-4EB1-BFF3-8125C1225CF1}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 45
+        VELLANE -1 100 0
+      >
+    >
+  >
+  <TRACK {788301D6-39FE-42E5-AD87-E342EA811C8F}
+    NAME Bass
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 1.02027317611641 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 0 0
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {788301D6-39FE-42E5-AD87-E342EA811C8F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 638 51 728 566
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSynth (Cockos)" reasynth.dll 0 "" 1919251321<5653547265737972656173796E746800> ""
+        eXNlcu9e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAAA8AAAAAAAAAAAAEAA=
+        776t3g3wrd6mm8Q7F7fROpzEQD8AAAAAAACAP85NAD/pZ4g9AAAAAAAAAD8AAIA/AAAAAAAAAD8AAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {73BD731E-BC9D-4A71-994D-C9FA5176C394}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQAAAAEAAAAAAAAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAVkVSQkdFTgAYAAAAAAAAAJHgV0QAAIA/3rK7QgAAyEIAAIC/IUVDSE9HRU4AHAAAAMv4tkC1I3VCXc3T
+        P6LHXz+ZUa88kc2MQJzEAD8=
+        AHN3ZWV0dmVyYm8AAAAAAA==
+      >
+      PRESETNAME sweetverbo
+      FLOATPOS 0 0 0 0
+      FXID {1985EF6B-6C18-4759-A8FC-15A96A5DAC8E}
+      WAK 0
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 24
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 1
+      IGUID {E07FFB8B-4B99-4198-B852-93445FF65E17}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B1BA81B5-5BD1-4308-A653-183838F74EA6}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {E4F815C8-5C1C-4507-A1D4-13FE6F9DC5D1}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 48 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW 234.35386 0.413904 58 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 120
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {C5D2364C-4C03-4E51-85F4-85DED5A312EB}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {9C2C4463-AD2D-480D-BA12-278E3A372F68}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {9ADB6A2E-80D5-4B69-AE3C-81E83BFC8D4D}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 48 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        e 0 90 33 60
+        e 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW 234.35386 0.413904 58 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+  <TRACK {B21CCC2D-812E-4C8D-A69C-9544018253EE}
+    NAME Kick
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    VOLPAN 0.32759970788183 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    ISBUS 2 -1
+    BUSCOMP 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0
+    FREEMODE 0
+    SEL 0
+    REC 0 0 0 0 0 0 0
+    VU 2
+    TRACKHEIGHT 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {B21CCC2D-812E-4C8D-A69C-9544018253EE}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <FXCHAIN
+      WNDRECT 516 64 728 566
+      SHOW 0
+      LASTSEL 1
+      DOCKED 0
+      BYPASS 0 0 0
+      <VST "VSTi: ReaSamplOmatic5000 (Cockos)" reasamplomatic.dll 0 "" 1920167789<56535472736F6D72656173616D706C6F> ""
+        bW9zcu5e7f4AAAAAAgAAAAEAAAAAAAAAAgAAAAAAAABuAQAAAQAAAAAAEAA=
+        QzpcVXNlcnNcYnJhZG1cRG9jdW1lbnRzXElHTUUtQXNzaWdubWVudHNcSUdNRS02NzBcUHJvamVjdCAyXEF1ZGlvXDM0NDc1N19fd2F2ZXBsYXktb2xkX19wdW5jaHkt
+        dHJhbmNlLWtpY2stNC53YXYAAAAAAAAA8D8AAAAAAADgPwAAAAAAAPA/AAAAAAAAAAAAAAAAAADwP5qZmZmZmbE/zczMzMzM6z8AAAAAAAAAAJqZmZmZmck//Knx0k1i
+        QD/8qfHSTWJAPwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAA4D8BAAAAAAAAAAAAAAAAAAAAAADwP0AAAABVVVVVVVXFP/////8AAAAAAAAAAAAA
+        AAAAAPA/AAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAM6kISEaZZA/AAAAAAAA8D/8qfHSTWIwPwAAAAAAAAAA
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {C1CBCCCD-EC87-45C1-8E29-4073189D6398}
+      WAK 0
+      BYPASS 0 0 0
+      <VST "VST: ReaVerb (Cockos)" reaverb.dll 0 "" 1919252066<56535472657662726561766572620000> ""
+        YnZlcu5e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAcQAAAAEAAAAAABAA
+        AAAAwcybgD4AAIA/AAAAAAAAgD8AAIA/AAAAPwAAAAAAAAAAIUVDSE9HRU4AHAAAAAAAAAAAAMhCAAAgQQAAAD8AAIA+AAAAAAAAAD9WRVJCR0VOABgAAAAAAAAAAAB6
+        RAAAgD8w+zdCAADIQgAAgD8=
+        AAAQAAAA
+      >
+      FLOATPOS 0 0 0 0
+      FXID {1D0568DD-86F3-4519-B2DF-5AC8CA93AD99}
+      WAK 0
+    >
+    <ITEM
+      POSITION 96
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {F377E861-B8F3-4001-A219-CD6B1EEA5918}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {7DD046A1-B8FB-411E-B167-C0C1C7928973}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {E10DECC4-2514-4662-B762-E7881C99E7FA}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 104
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {49D34DB8-1590-4386-841E-990A52177EB5}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {3EFD906D-0B3C-4E8D-AE41-308E5D112ADA}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {BA6B9670-A911-4B33-A4DF-D1E7CBAE1753}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 112
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {CB10A91E-1AC0-42DB-B2AF-90F5B283EB90}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FA254D6E-535A-41B2-9ACC-96A94FCA8FCA}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {B2AD5F45-AEF8-4C0D-9052-B24FA342352C}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+    <ITEM
+      POSITION 120
+      SNAPOFFS 0
+      LENGTH 8
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0
+      FADEOUT 1 0 0 1 0 0
+      MUTE 0
+      SEL 0
+      IGUID {3E237468-FDDA-4E9F-9F78-4E8EE2C0FF58}
+      IID 2
+      NAME "3x Osc 1 - menus.mid"
+      VOLPAN 1 0 1 -1
+      SOFFS 0 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {75CD773E-82B4-475C-9198-56113824D372}
+      <SOURCE MIDI
+        HASDATA 1 96 QN
+        POOLEDEVTS {4F923752-6CBE-4304-BFF6-EC162E8160D1}
+        <X 0 0 0 0 3 "3x Osc 1"
+          /wMzeCBPc2MgMQ==
+        >
+        E 0 90 35 64
+        E 48 80 35 40
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 64
+        E 48 80 35 00
+        E 48 90 35 60
+        E 48 80 35 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 48 90 33 60
+        E 48 80 33 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 64
+        E 48 80 38 00
+        E 48 90 38 60
+        E 48 80 38 00
+        E 48 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 64
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        E 0 90 33 60
+        E 48 80 33 00
+        e 0 90 33 60
+        e 48 80 33 00
+        E 0 b0 7b 00
+        CHASE_CC_TAKEOFFS 1
+        GUID {D8416F37-5EF1-488A-843D-7EC2E3B34FEE}
+        IGNTEMPO 0 120 4 4
+        SRCCOLOR 5
+        VELLANE -1 100 0
+        CFGEDITVIEW -87.578947 0.445313 69 12 0 -1 0 0 0 0.5
+        KEYSNAP 0
+        TRACKSEL 0
+        EVTFILTER 0 -1 -1 -1 -1 0 0 0 0 -1 -1 -1 -1 0 -1 0 -1 -1
+        CFGEDIT 1 1 0 1 0 0 1 1 1 1 1 0.125 0 43 849 437 0 0 0 0 0 0 0 1 0 0.5 0 0 1 64
+      >
+    >
+  >
+>

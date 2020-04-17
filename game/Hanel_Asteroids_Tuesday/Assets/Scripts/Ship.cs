@@ -55,6 +55,11 @@ public class Ship : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
     {
+        if (manage.paused)
+        {
+            return;
+        }
+
         RotateVehicle();
 
         Drive();
@@ -175,6 +180,8 @@ public class Ship : MonoBehaviour
         manage.ship = ship;
         //shipSprite = AddComponent<Ship>;
 
+        manage.aud[Random.Range(4, 7)].Play();
+        
         StartCoroutine(MakeImmortal());
     }
 
