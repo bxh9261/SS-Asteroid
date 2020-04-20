@@ -195,10 +195,10 @@ public class Ship : MonoBehaviour
         manage.aud[3].Play();
         yield return new WaitForSeconds(1f);
         manage.ship.GetComponent<SpriteRenderer>().color = Color.yellow;
-        manage.aud[3].Play();
+        manage.aud[7].Play();
         yield return new WaitForSeconds(1f);
         manage.ship.GetComponent<SpriteRenderer>().color = Color.red;
-        manage.aud[3].Play();
+        manage.aud[8].Play();
         yield return new WaitForSeconds(1f);
         immortal = false;
         manage.ship.GetComponent<SpriteRenderer>().color = Color.white;
