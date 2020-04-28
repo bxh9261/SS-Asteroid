@@ -70,6 +70,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8880130836839415921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236812299145967
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-8879865676701656219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -153,7 +171,7 @@ MonoBehaviour:
   Path: event:/FX/SmallExplosion
   guid: d8b3b1e9c4d2be4f80960c3847331bb4
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -176,14 +194,14 @@ MonoBehaviour:
   Path: event:/Dialogue/Dialogue
   guid: a141603b430ea4468afd5a9649fe3453
   Banks:
-  - {fileID: 1170163242749780253}
+  - {fileID: 7269010369391221776}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
-  Length: 5000
+  Length: 30000
 --- !u!114 &-8188020742170537066
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +219,7 @@ MonoBehaviour:
   lastModified: 637236803796086233
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-8172678850925486982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -618,7 +636,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-6262429325933662460
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -999,7 +1017,7 @@ MonoBehaviour:
   Path: event:/Main Menu Music
   guid: 82cd31fb1fc70641ba2d52ea793054c8
   Banks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -1218,13 +1236,13 @@ MonoBehaviour:
   Path: event:/FX/Engine
   guid: 09e4f4cfcdf6b64680e67d2ceba1a1a1
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: -6268314328394083520}
-  - {fileID: 2046470035195696658}
+  - {fileID: 1234105198599388204}
+  - {fileID: 7775668484919807274}
   MinDistance: 0
   MaxDistance: 0
   Length: 0
@@ -1261,7 +1279,7 @@ MonoBehaviour:
   Path: snapshot:/Dialogue Playing
   guid: 0d0c6471dcaf494b8241d05a135cc1cc
   Banks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1301,7 +1319,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD/game music/Build/Desktop/Music.strings.bank
   SubDir: 
-  lastModified: 637236803800340807
+  lastModified: 637236812299326099
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -1339,7 +1357,7 @@ MonoBehaviour:
   Path: event:/FX/Oof
   guid: a1108a437263764092d15f44cd58a12d
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1663,7 +1681,7 @@ MonoBehaviour:
   Path: event:/FX/Proceed
   guid: 0d5f0146eebb6c4b973b0502530eedd3
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -1811,7 +1829,7 @@ MonoBehaviour:
   Path: snapshot:/Paused
   guid: 35fad181a6b83d49a7c5db634fe26fa6
   Banks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -1851,7 +1869,7 @@ MonoBehaviour:
   Path: event:/FX/Skip
   guid: 1e256848b7cf4e4bb268ec9856de13ba
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2100,7 +2118,7 @@ MonoBehaviour:
   Path: event:/FX/BigExplosion
   guid: 45da60c57e833f4a926aec857e3fe19d
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -2440,10 +2458,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4434342832481299428}
-  - {fileID: -8188020742170537066}
-  - {fileID: 1170163242749780253}
-  - {fileID: 8221516100880104754}
-  - {fileID: 7798086686272953689}
+  - {fileID: 6154807870898936375}
+  - {fileID: 7269010369391221776}
+  - {fileID: 7620855873973854536}
+  - {fileID: -8880130836839415921}
   EditorEvents:
   - {fileID: 8401308194086996872}
   - {fileID: 1330681542101463945}
@@ -2462,10 +2480,10 @@ MonoBehaviour:
   - {fileID: -4538110075193167887}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   StringsBanks:
   - {fileID: -4434342832481299428}
-  stringsBankWriteTime: 637236803800340807
+  stringsBankWriteTime: 637236812299326099
   cacheVersion: 3
 --- !u!114 &2139927972471861
 MonoBehaviour:
@@ -2535,7 +2553,7 @@ MonoBehaviour:
   Path: event:/Game Over (Experimental)
   guid: 31f00eb7f238f74faa61c62515e6ebd3
   Banks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -2716,6 +2734,23 @@ MonoBehaviour:
   lastModified: 637236803797016471
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &1234105198599388204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Engine/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
   Exists: 1
 --- !u!114 &1260423585724787154
 MonoBehaviour:
@@ -2750,7 +2785,7 @@ MonoBehaviour:
   Path: event:/Space Sounds
   guid: 0375e04e7f8ac04eb24e7bade7b50a6d
   Banks:
-  - {fileID: -8188020742170537066}
+  - {fileID: 6154807870898936375}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
@@ -2879,7 +2914,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &2071763892693186521
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2999,7 +3034,7 @@ MonoBehaviour:
   Path: event:/FX/Respawn
   guid: 856f1d6c589d0f46866b903cfbebad2d
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -3548,7 +3583,7 @@ MonoBehaviour:
   Min: 0
   Max: 1
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4519268571163947224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3686,7 +3721,7 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &5428990699661183388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3931,6 +3966,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &6154807870898936375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236812293711732
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6247135782464068525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4032,7 +4085,7 @@ MonoBehaviour:
   Path: event:/FX/Pew
   guid: f0d174bc33556b4db213d26c0d89a063
   Banks:
-  - {fileID: 8221516100880104754}
+  - {fileID: 7620855873973854536}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -4179,6 +4232,24 @@ MonoBehaviour:
   Max: 10
   Default: 0
   Exists: 0
+--- !u!114 &7269010369391221776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236812294547589
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &7351999579922230158
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4284,6 +4355,41 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 1
+--- !u!114 &7620855873973854536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236812297158253
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &7775668484919807274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Engine/Turning
+  m_EditorClassIdentifier: 
+  Name: Turning
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &7798086686272953689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4301,7 +4407,7 @@ MonoBehaviour:
   lastModified: 637236803800161914
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &7851447854667780546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4373,6 +4479,23 @@ MonoBehaviour:
   Max: 1
   Default: 0
   Exists: 0
+--- !u!114 &8090778601324747078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
 --- !u!114 &8117897265037552422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4461,7 +4584,7 @@ MonoBehaviour:
   lastModified: 637236803797976695
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &8270037646947729760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4514,13 +4637,13 @@ MonoBehaviour:
   Path: event:/Level Music
   guid: 808a8005d316ec4e83b76199d5bcfbf3
   Banks:
-  - {fileID: 7798086686272953689}
+  - {fileID: -8880130836839415921}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 4501640587038265233}
-  - {fileID: 5312939149638331096}
+  - {fileID: 8090778601324747078}
+  - {fileID: 8512097995944764057}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -4542,6 +4665,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8512097995944764057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
 --- !u!114 &8515738547973469434
 MonoBehaviour:
   m_ObjectHideFlags: 0
