@@ -51,14 +51,14 @@ public class StoryManager : MonoBehaviour {
     //FMOD
     [Range(0.0f, 1.0f)]
     public float volume;
-    private Bus masterBus;
+    private Bus musicBus;
 
     // Use this for initialization
     void Start ()
     {
         //initializing
-        masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
-        SetMasterBusVolume(1.0f);
+        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+        musicBus.setVolume(1.0f);
         dialogue = FMODUnity.RuntimeManager.CreateInstance("event:/Dialogue/Dialogue");
         proceed = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Proceed");
         skip = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Skip");
@@ -98,11 +98,11 @@ public class StoryManager : MonoBehaviour {
             enterPresses++;
             if (enterPresses >= 0)
             {
-                SetMasterBusVolume(0.2f);
+                SetMusicBusVolume(0.2f);
             }
             else
             {
-                SetMasterBusVolume(1.0f);
+                SetMusicBusVolume(1.0f);
             }
             if(enterPresses >= 13)
             {
@@ -131,7 +131,6 @@ public class StoryManager : MonoBehaviour {
         skip.start();
         yield return new WaitForSeconds(0.5f);
         dialogue.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
-        
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
 
@@ -201,9 +200,9 @@ public class StoryManager : MonoBehaviour {
     }
 
     //set music volume (0-1)
-    public void SetMasterBusVolume(float volume)
+    public void SetMusicBusVolume(float volume)
     {
-        masterBus.setVolume(volume);
+        musicBus.setVolume(volume);
     }
 
     //progress through the story

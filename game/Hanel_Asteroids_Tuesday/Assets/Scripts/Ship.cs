@@ -26,6 +26,8 @@ public class Ship : MonoBehaviour
     AsteroidManager am;
     SceneManager manage;
 
+    FMODUnity.StudioEventEmitter Thrusters;
+
     public bool immortal;
 
 	// Use this for initialization
@@ -34,6 +36,12 @@ public class Ship : MonoBehaviour
         //instantiating stuff
         am = GameObject.Find("Scene Manager").GetComponent<AsteroidManager>();
         manage = GameObject.Find("Scene Manager").GetComponent<SceneManager>();
+
+        Thrusters = manage.GetComponents<FMODUnity.StudioEventEmitter>()[1];
+
+
+        Thrusters.SetParameter("Velocity", 0.0f);
+        Thrusters.SetParameter("Turning", 0.0f);
 
         vehiclePosition = new Vector3(0, 0, 0);     // Or you could say Vector3.zero
         direction = new Vector3(1, 0, 0);           // Facing right
@@ -88,11 +96,12 @@ public class Ship : MonoBehaviour
     /// </summary>
     public void Drive()
     {
+
         // Accelerate
         // Small vector that's added to velocity every frame
         acceleration = accelRate * direction;
 
-
+        
         // We used to use this, but acceleration will now increase the vehicle's "speed"
         // Velocity will remain intact from one frame to the next
         //velocity = direction * speed;             // Unnecessary
@@ -107,6 +116,8 @@ public class Ship : MonoBehaviour
 
         // Limit velocity so it doesn't become too large
         velocity = Vector3.ClampMagnitude(velocity, maxSpeed);
+        Debug.Log(acceleration.magnitude);
+        Thrusters.SetParameter("Velocity", velocity.magnitude*5);
 
         // Add velocity to vehicle's position
         vehiclePosition += velocity;
@@ -123,11 +134,17 @@ public class Ship : MonoBehaviour
         {
             angleOfRotation += 2;
             direction = Quaternion.Euler(0, 0, 2) * direction;
+            Thrusters.SetParameter("Turning", 1.0f);
         }
         else if (Input.GetKey(KeyCode.RightArrow))
         {
             angleOfRotation -= 2;
             direction = Quaternion.Euler(0, 0, -2) * direction;
+            Thrusters.SetParameter("Turning", 1.0f);
+        }
+        else
+        {
+            Thrusters.SetParameter("Turning", 0.0f);
         }
     }
 

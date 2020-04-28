@@ -35,6 +35,7 @@ public class SceneManager : MonoBehaviour {
     FMOD.Studio.EventInstance SmallExplosion;
     FMOD.Studio.EventInstance Oof;
     FMOD.Studio.EventInstance Pew;
+    FMODUnity.StudioEventEmitter musicEmitter;
     #endregion
 
 
@@ -47,11 +48,12 @@ public class SceneManager : MonoBehaviour {
 
     public bool paused;
 
-    FMODUnity.StudioEventEmitter musicEmitter;
+    
 
     [Range(0.0f, 1.0f)]
     public float volume;
     private Bus masterBus;
+    private Bus musicBus;
 
     // Use this for initialization
     void Start () {
@@ -68,7 +70,11 @@ public class SceneManager : MonoBehaviour {
 
         //instationtiatingng
         masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
-        SetMasterBusVolume(0.6f);
+        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Music");
+        SetMasterBusVolume(1.0f);
+        SetMusicBusVolume(0.7f);
+        
+        
         aud = GetComponents<AudioSource>();
         musicEmitter = GetComponent<FMODUnity.StudioEventEmitter>();
         musicEmitter.SetParameter("Level", 0.0f);
@@ -101,11 +107,11 @@ public class SceneManager : MonoBehaviour {
             paused = !paused;
             if (paused)
             {
-                SetMasterBusVolume(0.2f);
+                SetMusicBusVolume(0.2f);
             }
             else
             {
-                SetMasterBusVolume(0.6f);
+                SetMusicBusVolume(0.7f);
             }
         }
     }
@@ -174,10 +180,16 @@ public class SceneManager : MonoBehaviour {
         }
     }
 
-    //set music volume (0-1)
+    //set master volume (0-1)
     public void SetMasterBusVolume(float volume)
     {
         masterBus.setVolume(volume);
+    }
+
+    //set music volume (0-1)
+    public void SetMusicBusVolume(float volume)
+    {
+        musicBus.setVolume(volume);
     }
 
     public FMOD.Studio.EventInstance GetFMODAudio(string title)

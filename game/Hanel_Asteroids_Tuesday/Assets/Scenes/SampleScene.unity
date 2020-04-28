@@ -218,6 +218,7 @@ GameObject:
   - component: {fileID: 1521192268}
   - component: {fileID: 1521192270}
   - component: {fileID: 1521192276}
+  - component: {fileID: 1521192271}
   m_Layer: 0
   m_Name: Scene Manager
   m_TagString: Untagged
@@ -396,6 +397,29 @@ MonoBehaviour:
   bulletRotation: 0
   bulletSprite: {fileID: 1200122193870516, guid: 9d50bf4344e482849916d99bfef8ae26,
     type: 3}
+--- !u!114 &1521192271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521192265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/FX/Engine
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!114 &1521192276
 MonoBehaviour:
   m_ObjectHideFlags: 0
