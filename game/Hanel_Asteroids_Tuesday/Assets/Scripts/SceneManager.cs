@@ -26,8 +26,17 @@ public class SceneManager : MonoBehaviour {
 
     int points;
 
+    #region audio
     //holds pew pews, booms, and music
     public AudioSource[] aud;
+
+    FMOD.Studio.EventInstance Respawn;
+    FMOD.Studio.EventInstance BigExplosion;
+    FMOD.Studio.EventInstance SmallExplosion;
+    FMOD.Studio.EventInstance Oof;
+    FMOD.Studio.EventInstance Pew;
+    #endregion
+
 
     //stars and their movement
     public GameObject starSprite;
@@ -46,6 +55,15 @@ public class SceneManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
+        #region audio
+        Respawn = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Respawn");
+        BigExplosion = FMODUnity.RuntimeManager.CreateInstance("event:/FX/BigExplosion");
+        SmallExplosion = FMODUnity.RuntimeManager.CreateInstance("event:/FX/SmallExplosion");
+        Oof = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Oof");
+        Pew = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Pew");
+        #endregion
+
+
         paused = false;
 
         //instationtiatingng
@@ -160,6 +178,31 @@ public class SceneManager : MonoBehaviour {
     public void SetMasterBusVolume(float volume)
     {
         masterBus.setVolume(volume);
+    }
+
+    public FMOD.Studio.EventInstance GetFMODAudio(string title)
+    {
+        switch (title)
+        {
+            case "Respawn":
+                return Respawn;
+                break;
+            case "BigExplosion":
+                return BigExplosion;
+                break;
+            case "SmallExplosion":
+                return SmallExplosion;
+                break;
+            case "Oof":
+                return Oof;
+                break;
+            case "Pew":
+                return Pew;
+                break;
+            default:
+                return Respawn;
+                break;
+        }
     }
 
 }

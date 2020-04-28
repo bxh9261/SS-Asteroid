@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{09cd71d3-d48d-4672-bb46-111f610892b9}">
+		<property name="assetPath">
+			<value>24-Ken.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.91088435374149657</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b501917-3c10-4871-8558-8bb0e4a2ac82}</destination>
+		</relationship>
+	</object>
+</objects>

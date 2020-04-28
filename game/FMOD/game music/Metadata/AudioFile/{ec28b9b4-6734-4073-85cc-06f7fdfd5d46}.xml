@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{ec28b9b4-6734-4073-85cc-06f7fdfd5d46}">
+		<property name="assetPath">
+			<value>06-Brad.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>4.6248299319727888</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{0b501917-3c10-4871-8558-8bb0e4a2ac82}</destination>
+		</relationship>
+	</object>
+</objects>

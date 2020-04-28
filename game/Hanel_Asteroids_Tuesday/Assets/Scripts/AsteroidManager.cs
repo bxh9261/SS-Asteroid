@@ -157,7 +157,7 @@ public class AsteroidManager : MonoBehaviour {
                         if (CircleCollision(manage.bullets[j], manage.asteroids[i]))
                         {
                             //boom sound
-                            manage.aud[0].Play();
+                            manage.GetFMODAudio("BigExplosion").start();
 
                             //make points
                             manage.Points += 20;
@@ -219,7 +219,7 @@ public class AsteroidManager : MonoBehaviour {
                         if (CircleCollision(manage.bullets[m], manage.babyAsteroids[k]))
                         {
                             //little boom
-                            manage.aud[1].Play();
+                            manage.GetFMODAudio("SmallExplosion").start();
 
                             //kill bullet, kill asteroid
                             Destroy(manage.bullets[m]);
@@ -324,7 +324,6 @@ public class AsteroidManager : MonoBehaviour {
         for(int i = 0; i < 5; i++)
         {
             velocities[i] = velocities[i] * 1.4f;
-            manage.aud[4].pitch += 0.01f;
         }
     }
 

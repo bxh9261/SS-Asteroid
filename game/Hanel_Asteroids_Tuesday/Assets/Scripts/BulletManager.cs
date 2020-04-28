@@ -64,7 +64,7 @@ public class BulletManager : MonoBehaviour {
             if (canShoot)
             {
                 //pew
-                manage.aud[2].Play();
+                manage.GetFMODAudio("Pew").start();
 
                 //make bullet
                 bulletRotation = s.angleOfRotation - 90;

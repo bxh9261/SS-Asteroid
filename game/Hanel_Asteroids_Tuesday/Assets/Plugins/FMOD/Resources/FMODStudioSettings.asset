@@ -80,5 +80,7 @@ MonoBehaviour:
   - Music
   Banks:
   - Ambience
+  - Dialogue
+  - FX
   BanksToLoad: []
   LiveUpdatePort: 9264

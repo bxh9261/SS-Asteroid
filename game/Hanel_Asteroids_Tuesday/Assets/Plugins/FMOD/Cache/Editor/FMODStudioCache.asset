@@ -17,6 +17,24 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &-8940730087372962158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236675707074112
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-8881133162529489673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,6 +53,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-8805167878748583381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &-8673223442183876233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52,6 +87,52 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &-8283163793880345417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/SmallExplosion
+  m_EditorClassIdentifier: 
+  Path: event:/FX/SmallExplosion
+  guid: d8b3b1e9c4d2be4f80960c3847331bb4
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1501
+--- !u!114 &-8261120102938668811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Dialogue/Dialogue
+  m_EditorClassIdentifier: 
+  Path: event:/Dialogue/Dialogue
+  guid: a141603b430ea4468afd5a9649fe3453
+  Banks:
+  - {fileID: 2945777037806295039}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
 --- !u!114 &-8172678850925486982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,6 +184,59 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &-7805082099510257752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236688151822665
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-7632296241270138470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
+--- !u!114 &-7580146878933894186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236660826979096
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-7419394351089425324
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -138,6 +272,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-7252156492660910936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-7032698065937923669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,6 +305,24 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
+  Exists: 0
+--- !u!114 &-6982278949297750450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236668757367066
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-6929466701588438393
 MonoBehaviour:
@@ -173,6 +342,41 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-6848679715854632574
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236680863822549
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6775327848694941598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-6593635916373606845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,6 +393,24 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
+  Exists: 0
+--- !u!114 &-6434219809705155794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236645133116805
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-6383866903882923551
 MonoBehaviour:
@@ -222,6 +444,23 @@ MonoBehaviour:
   Name: Level
   Min: 0
   Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-6262429325933662460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
   Default: 0
   Exists: 0
 --- !u!114 &-6254713439218537669
@@ -258,6 +497,77 @@ MonoBehaviour:
   Max: 10
   Default: 0
   Exists: 0
+--- !u!114 &-6118349776361954432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-6108471744398021740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236681941253824
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-6022026617835392300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236684126997336
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5869047579832807602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236645492560671
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-5856755873473600695
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -276,6 +586,145 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-5837249875124191300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-5822560491637592576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-5797572259984241779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &-5747558343875536962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-5675138129621683193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236688151023384
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5633559478333952448
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236681942824225
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5626124053984868850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236681940303595
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-5577488622293240038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 1
 --- !u!114 &-5230876088913703522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -293,6 +742,23 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &-5218931972769900724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &-5179370908695657708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -308,15 +774,89 @@ MonoBehaviour:
   Path: event:/Main Menu Music
   guid: 82cd31fb1fc70641ba2d52ea793054c8
   Banks:
-  - {fileID: 2410918309813743508}
+  - {fileID: -120998682631885313}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
   Parameters:
-  - {fileID: -4070055439211519413}
+  - {fileID: -5577488622293240038}
   MinDistance: 0
   MaxDistance: 0
   Length: 64000
+--- !u!114 &-5111489171030222690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX
+  m_EditorClassIdentifier: 
+  Path: event:/FX
+  guid: 856f1d6c589d0f46866b903cfbebad2d
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4005
+--- !u!114 &-5078527150759514808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-5072936852214724151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236688150232677
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4890981423017857285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &-4751968552629472120
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -334,6 +874,23 @@ MonoBehaviour:
   lastModified: 637224780324794659
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &-4668129898736334441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
   Exists: 0
 --- !u!114 &-4631418991584276920
 MonoBehaviour:
@@ -370,6 +927,47 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-4488353729831734482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236653449003652
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-4469127037959941487
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Dialogue Playing
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Dialogue Playing
+  guid: 0d0c6471dcaf494b8241d05a135cc1cc
+  Banks:
+  - {fileID: -120998682631885313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-4468291458935473950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,12 +1000,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FMOD/game music/Build/Desktop/Music.strings.bank
   SubDir: 
-  lastModified: 637226711603576630
+  lastModified: 637236691904172731
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1040
+    Value: 1644
   Exists: 1
+--- !u!114 &-4264651928085591695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Oof
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Oof
+  guid: a1108a437263764092d15f44cd58a12d
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 5000
 --- !u!114 &-4241703858350796696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,7 +1046,7 @@ MonoBehaviour:
   lastModified: 637226711602496295
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &-4192937458305546653
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -459,7 +1080,7 @@ MonoBehaviour:
   Min: 0
   Max: 10
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &-3951731381073514182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -475,6 +1096,24 @@ MonoBehaviour:
   Path: ../FMOD/game music/Build/Desktop/Music.bank
   SubDir: 
   lastModified: 637221154538365958
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3948664503372591259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236680845983363
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -495,6 +1134,23 @@ MonoBehaviour:
   Max: 10
   Default: 0
   Exists: 0
+--- !u!114 &-3851096842775876625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &-3802595040002944517
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -511,6 +1167,80 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
+  Exists: 0
+--- !u!114 &-3629425634609014040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-3592163284234142441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 1
+--- !u!114 &-3584372604383603131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Respawn
+  m_EditorClassIdentifier: 
+  Path: event:/Respawn
+  guid: 856f1d6c589d0f46866b903cfbebad2d
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4005
+--- !u!114 &-3383809491062418233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236660828089379
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-3369839359601501046
 MonoBehaviour:
@@ -530,6 +1260,46 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-3212448394878309899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-3211833250591281352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Proceed
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Proceed
+  guid: 0d5f0146eebb6c4b973b0502530eedd3
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1280
 --- !u!114 &-3111196377849683904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -545,6 +1315,24 @@ MonoBehaviour:
   Path: ../FMOD/game music/Build/Desktop/Ambience.bank
   SubDir: 
   lastModified: 637224810224669755
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-3055741560458241075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236688149252435
   LoadResult: 0
   FileSizes: []
   Exists: 0
@@ -566,6 +1354,64 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-2922400873438802600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236680847523410
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-2878106541482971275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-2689583547831365869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Paused
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Paused
+  guid: 35fad181a6b83d49a7c5db634fe26fa6
+  Banks:
+  - {fileID: -120998682631885313}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &-2304464716022325428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -582,6 +1428,116 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
+  Exists: 0
+--- !u!114 &-2284628735358568928
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Skip
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Skip
+  guid: 1e256848b7cf4e4bb268ec9856de13ba
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1280
+--- !u!114 &-2164546653161622469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &-2011089521593080210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1932566852344041136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1919417592786765438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236668761238042
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1895913276359164129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236684121595962
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &-1820019289064719663
 MonoBehaviour:
@@ -636,6 +1592,156 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &-1400167480572331611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-1334115232728352293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236640656508585
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1175775179416376116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/BigExplosion
+  m_EditorClassIdentifier: 
+  Path: event:/FX/BigExplosion
+  guid: 45da60c57e833f4a926aec857e3fe19d
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1501
+--- !u!114 &-1136250581196157408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &-1123507790967877791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/New Event
+  m_EditorClassIdentifier: 
+  Path: event:/New Event
+  guid: 856f1d6c589d0f46866b903cfbebad2d
+  Banks: []
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4005
+--- !u!114 &-1050712686319042150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236653450113961
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &-1016070423527541032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &-862232787465896525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236675706113936
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &-688570347858408329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -652,8 +1758,42 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
-  Exists: 1
+  Exists: 0
+--- !u!114 &-662201062521404171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &-498287523256360444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &-369343403431272679
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -688,6 +1828,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &-120998682631885313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236691904012690
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -702,19 +1860,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: -4434342832481299428}
-  - {fileID: -4241703858350796696}
-  - {fileID: 2410918309813743508}
+  - {fileID: 8211104394742504778}
+  - {fileID: 2945777037806295039}
+  - {fileID: 5726367400128672637}
+  - {fileID: -120998682631885313}
   EditorEvents:
   - {fileID: 8401308194086996872}
   - {fileID: 1330681542101463945}
   - {fileID: -5179370908695657708}
   - {fileID: 297779852730619931}
+  - {fileID: -4469127037959941487}
+  - {fileID: -2689583547831365869}
+  - {fileID: -1175775179416376116}
+  - {fileID: 2395776859628801631}
+  - {fileID: -8283163793880345417}
+  - {fileID: -3211833250591281352}
+  - {fileID: -2284628735358568928}
+  - {fileID: -4264651928085591695}
+  - {fileID: 6628616646343034705}
+  - {fileID: -8261120102938668811}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 2410918309813743508}
+  - {fileID: -120998682631885313}
   StringsBanks:
   - {fileID: -4434342832481299428}
-  stringsBankWriteTime: 637226711603576630
+  stringsBankWriteTime: 637236691904172731
   cacheVersion: 3
 --- !u!114 &2139927972471861
 MonoBehaviour:
@@ -766,7 +1936,7 @@ MonoBehaviour:
   Path: event:/Game Over (Experimental)
   guid: 31f00eb7f238f74faa61c62515e6ebd3
   Banks:
-  - {fileID: 2410918309813743508}
+  - {fileID: -120998682631885313}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -774,6 +1944,40 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 11000
+--- !u!114 &454803314268359873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &548338296673498584
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &633014454575303292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -789,6 +1993,23 @@ MonoBehaviour:
   Name: Level
   Min: 0
   Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &717301103515523314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
   Default: 0
   Exists: 0
 --- !u!114 &853794110880416166
@@ -827,6 +2048,23 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &1115642449616738872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &1330681542101463945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -842,12 +2080,12 @@ MonoBehaviour:
   Path: event:/Space Sounds
   guid: 0375e04e7f8ac04eb24e7bade7b50a6d
   Banks:
-  - {fileID: -4241703858350796696}
+  - {fileID: 8211104394742504778}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
   Parameters:
-  - {fileID: 4267617526995327831}
+  - {fileID: -7632296241270138470}
   MinDistance: 1
   MaxDistance: 20
   Length: 76000
@@ -885,6 +2123,24 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &1642836373350885556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236645493360836
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &1819915484096858570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -902,6 +2158,63 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &2235630993612276696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &2284519791365030591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &2395776859628801631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Respawn
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Respawn
+  guid: 856f1d6c589d0f46866b903cfbebad2d
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4005
 --- !u!114 &2397222671996988152
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -937,7 +2250,61 @@ MonoBehaviour:
   lastModified: 637226711603426528
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
+--- !u!114 &2411718912582995720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236640652715903
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2523690579720884931
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236681943664475
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &2614966752546903202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236680844933111
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &2670779353472148284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,6 +2340,24 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &2945777037806295039
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Dialogue.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Dialogue.bank
+  SubDir: 
+  lastModified: 637236691908167268
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &3087622372594430201
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -990,7 +2375,41 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &3093651409484380426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &3239680431624220383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &3328457857171496920
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1042,6 +2461,57 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &3532065592824019453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &3664686076992317530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 1
+--- !u!114 &3775802627522825280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &3884644217241478129
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,6 +2530,59 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &3926499526355131890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236684123556480
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &3999353126788517982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236660828769511
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &4125031007302787898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
 --- !u!114 &4267617526995327831
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1076,7 +2599,7 @@ MonoBehaviour:
   Min: 0
   Max: 20
   Default: 0
-  Exists: 1
+  Exists: 0
 --- !u!114 &4519268571163947224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1146,6 +2669,41 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &5051885770799928236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236675707964334
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &5215357636518906747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
 --- !u!114 &5428990699661183388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1180,6 +2738,24 @@ MonoBehaviour:
   Min: 0
   Max: 10
   Default: 0
+  Exists: 0
+--- !u!114 &5477946977206301869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236653450884038
+  LoadResult: 0
+  FileSizes: []
   Exists: 0
 --- !u!114 &5478337921795581091
 MonoBehaviour:
@@ -1227,6 +2803,41 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
   m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &5726367400128672637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236691906963280
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &5838668261225616774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Space Sounds/Level
   m_EditorClassIdentifier: 
   Name: Level
   Min: 0
@@ -1320,6 +2931,46 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 0
+--- !u!114 &6628616646343034705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/FX/Pew
+  m_EditorClassIdentifier: 
+  Path: event:/FX/Pew
+  guid: f0d174bc33556b4db213d26c0d89a063
+  Banks:
+  - {fileID: 5726367400128672637}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 1290
+--- !u!114 &6774746424641749090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
 --- !u!114 &6994291918701590975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1337,6 +2988,58 @@ MonoBehaviour:
   lastModified: 637224781317834742
   LoadResult: 0
   FileSizes: []
+  Exists: 0
+--- !u!114 &7031505345692782538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
+  Exists: 0
+--- !u!114 &7237186856779206706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236640654818208
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7247054518747577691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
+  Default: 0
   Exists: 0
 --- !u!114 &7351999579922230158
 MonoBehaviour:
@@ -1391,6 +3094,42 @@ MonoBehaviour:
   Max: 10
   Default: 0
   Exists: 0
+--- !u!114 &7504306817407836267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/FX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/FX.bank
+  SubDir: 
+  lastModified: 637236645133726952
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &7851447854667780546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236684119805525
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8022724024843082376
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1409,6 +3148,94 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 0
+--- !u!114 &8066909811570530319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236645491460398
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8089742863755845304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Paused
+  m_EditorClassIdentifier: 
+  Name: Paused
+  Min: 0
+  Max: 1
+  Default: 0
+  Exists: 0
+--- !u!114 &8146307837120558903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Level Music/Level
+  m_EditorClassIdentifier: 
+  Name: Level
+  Min: 0
+  Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &8208986639578354689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Music.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Music.bank
+  SubDir: 
+  lastModified: 637236668758447333
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
+--- !u!114 &8211104394742504778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236691902892402
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8270037646947729760
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1461,12 +3288,13 @@ MonoBehaviour:
   Path: event:/Level Music
   guid: 808a8005d316ec4e83b76199d5bcfbf3
   Banks:
-  - {fileID: 2410918309813743508}
+  - {fileID: -120998682631885313}
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: -688570347858408329}
+  - {fileID: 3664686076992317530}
+  - {fileID: -3592163284234142441}
   MinDistance: 1
   MaxDistance: 20
   Length: 0
@@ -1487,6 +3315,24 @@ MonoBehaviour:
   Max: 20
   Default: 0
   Exists: 1
+--- !u!114 &8763929835061889386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Ambience.bank
+  m_EditorClassIdentifier: 
+  Path: ../FMOD/game music/Build/Desktop/Ambience.bank
+  SubDir: 
+  lastModified: 637236645132226583
+  LoadResult: 0
+  FileSizes: []
+  Exists: 0
 --- !u!114 &8922717736258638413
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1519,5 +3365,22 @@ MonoBehaviour:
   Name: Level
   Min: 0
   Max: 20
+  Default: 0
+  Exists: 0
+--- !u!114 &9174880076529582680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Main Menu Music/Suspense
+  m_EditorClassIdentifier: 
+  Name: Suspense
+  Min: 0
+  Max: 10
   Default: 0
   Exists: 0

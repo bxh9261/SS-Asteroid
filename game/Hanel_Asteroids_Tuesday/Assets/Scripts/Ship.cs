@@ -179,10 +179,13 @@ public class Ship : MonoBehaviour
         GameObject ship = Instantiate(shipSprite, vehiclePosition, Quaternion.Euler(0, 0, 90));
         manage.ship = ship;
         //shipSprite = AddComponent<Ship>;
+        if(am.lives > 0)
+        {
+            manage.GetFMODAudio("Oof").start();
 
-        manage.aud[Random.Range(4, 7)].Play();
-        
-        StartCoroutine(MakeImmortal());
+            StartCoroutine(MakeImmortal());
+        }
+
     }
 
 
@@ -192,13 +195,11 @@ public class Ship : MonoBehaviour
         //https://docs.unity3d.com/ScriptReference/WaitForSeconds-ctor.html
         immortal = true;
         manage.ship.GetComponent<SpriteRenderer>().color = Color.green;
-        manage.aud[3].Play();
+        manage.GetFMODAudio("Respawn").start();
         yield return new WaitForSeconds(1f);
         manage.ship.GetComponent<SpriteRenderer>().color = Color.yellow;
-        manage.aud[7].Play();
         yield return new WaitForSeconds(1f);
         manage.ship.GetComponent<SpriteRenderer>().color = Color.red;
-        manage.aud[8].Play();
         yield return new WaitForSeconds(1f);
         immortal = false;
         manage.ship.GetComponent<SpriteRenderer>().color = Color.white;

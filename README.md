@@ -20,7 +20,10 @@ The player has two options for all the menus, to progress forward, and skip to t
 
 ## Sources (so far)
 https://freesound.org/people/alphatrooper18/sounds/362423/
+
 https://freesound.org/people/Tristan_Lohengrin/sounds/258348/
+
+https://freesound.org/people/sandyrb/sounds/82985/
 
 ## Milestone 3 Update
 For this milestone, I added code for the FMOD "Level" parameter in Unity. Enter and Skip (short diddies with ReaSynth), and woosh (one of the scattered ambient sounds, I recorded my desk fan and manipulated the pitch, volume, and reverb). I put sounds into a scatterer instrument in FMOD and built it into the "Game Over" scene in Unity. I got the dialogue from Nate and Ken and recorded my own audio (Tonor BM-700). I added compression and ReaFir to improve audio quality and then added a high and low pass filter on my own audio to give a "walkie talkie" effect on my voice. I rendered the files but haven't yet added dialogue to Unity.

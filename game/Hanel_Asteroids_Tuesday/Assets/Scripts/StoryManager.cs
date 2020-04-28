@@ -38,10 +38,15 @@ public class StoryManager : MonoBehaviour {
     string[] script;
     string[] names;
 
+    #region audio
     //music and bloop sound
     public AudioSource[] sounds;
+    FMOD.Studio.EventInstance dialogue;
+    FMOD.Studio.EventInstance proceed;
+    FMOD.Studio.EventInstance skip;
 
     GameObject music;
+    #endregion
 
     //FMOD
     [Range(0.0f, 1.0f)]
@@ -54,6 +59,9 @@ public class StoryManager : MonoBehaviour {
         //initializing
         masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
         SetMasterBusVolume(1.0f);
+        dialogue = FMODUnity.RuntimeManager.CreateInstance("event:/Dialogue/Dialogue");
+        proceed = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Proceed");
+        skip = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Skip");
         sounds = GetComponents<AudioSource>();
         music = GameObject.Find("Music");
         textRec = new Rect(DIST_FROM_SIDE, Screen.height / 2 + DIST_FROM_SIDE, Screen.width - DIST_FROM_SIDE * 2, Screen.height / 2 - DIST_FROM_SIDE * 3);
@@ -112,17 +120,18 @@ public class StoryManager : MonoBehaviour {
 
     public IEnumerator Dialogue()
     {
-        sounds[0].Play();
+        proceed.start();
         //sound
         yield return new WaitForSeconds(0.2f);
-        sounds[enterPresses + 2].Play();
-        sounds[enterPresses + 1].Pause();
+        dialogue.start();
     }
 
     public IEnumerator Skip()
     {
-        sounds[1].Play();
+        skip.start();
         yield return new WaitForSeconds(0.5f);
+        dialogue.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
 
@@ -230,26 +239,26 @@ public class StoryManager : MonoBehaviour {
     {
         script = new string[] 
         {   "Hooray! Another space mission! I’m so excited!",
-            "Da, eez very exciting John. Space eez very cool, and very beeg. Almost as beeg as Russia. ",
+            "Da, it's very exciting John. Space is very cool, and very big. Almost as big as Russia. ",
             "Uh, Petrov? I think space is actually bigger than Russia.",
-            "Don’t say zat, John! Eef you said zat in Russia, zey would turn your head into Borscht!", //sounds[5]
+            "Don’t say that, John! If you said that in Russia, they would crush your head into Borscht!", //sounds[5]
             "Sorry!",
             "*bzzt bzzt*",
             "Hey guys! This is Steve from mission control! How’s the weather up there?",
             "It’s great! Clear skies!",
-            "Da, eez very nice. When do we get to beeg red planet? ", //10
+            "Da, it's very nice. When do we get to big red planet? ", //10
             "Wait, big red planet? Aren’t you going to Mars? The big orange one? With the spot on it?",
-            "Zat’s Jupiter you moldy pierogi!",
-            "steve what the heck how do you work at nasa",
+            "That’s Jupiter you moldy pierogi!",
+            "Steve what the heck, how do you work at NASA?",
             "Uhhh…",
-            "wait… was zat an asteroid?", //15
+            "Wait… was that an asteroid?", //15
             "Oh no! Steve! Steve! We’re going through the asteroid belt!",
             "Uhhh…",
-            "Geev us somezing Stephen! ",
+            "Give us something Stephen! ",
             "Steve?", //20
             "I got it! I'm now giving your ship manual controls. Use the UP arrow to accelerate, and the LEFT and RIGHT arrows to rotate. I’ve also given you access to the laser. Use SPACE to shoot it. ",
             "Oh my gosh! We have a LASER? That’s so cool! We got this! Thanks Steve!",
-            "Steve, you can program a ship but you don’t know ze difference between mars and Jupiter?",
+            "Steve, you can program a ship but you don’t know the difference between mars and Jupiter?",
             "Uhhh…. We’re breaking up! Uhhh… bzzt… bzzt… Good luck! Bzzt… bye!"
         };
 
