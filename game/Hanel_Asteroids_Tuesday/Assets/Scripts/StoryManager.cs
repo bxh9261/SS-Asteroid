@@ -53,7 +53,6 @@ public class StoryManager : MonoBehaviour {
     #endregion
 
 
-
     // Use this for initialization
     void Start ()
     {
@@ -98,7 +97,7 @@ public class StoryManager : MonoBehaviour {
             enterPresses++;
             if (enterPresses >= 0)
             {
-                Debug.Log("Get Quieter");
+                dialogue.setParameterByName("DialogueC", enterPresses);
                 dialogueSnap.start();
             }
             StartCoroutine(Dialogue());
@@ -107,6 +106,7 @@ public class StoryManager : MonoBehaviour {
         //for skipping the story
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             StartCoroutine(Skip());
         }
 	}
@@ -124,6 +124,7 @@ public class StoryManager : MonoBehaviour {
         skip.start();
         yield return new WaitForSeconds(0.5f);
         dialogue.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+        dialogueSnap.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
         UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
 
@@ -216,6 +217,7 @@ public class StoryManager : MonoBehaviour {
         //after the last line, game starts
         else
         {
+            dialogueSnap.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
         }
 

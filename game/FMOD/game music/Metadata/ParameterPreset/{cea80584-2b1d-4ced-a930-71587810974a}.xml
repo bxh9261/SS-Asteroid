@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{cea80584-2b1d-4ced-a930-71587810974a}">
+		<property name="name">
+			<value>DialogueCount</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9f9a9438-d4bd-48ca-872d-73ffc46e28ca}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{5b028580-d49c-4c9c-aba0-795e20fe01da}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{5b028580-d49c-4c9c-aba0-795e20fe01da}">
+		<property name="maximum">
+			<value>22</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
