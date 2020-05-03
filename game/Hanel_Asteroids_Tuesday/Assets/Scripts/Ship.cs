@@ -116,7 +116,6 @@ public class Ship : MonoBehaviour
 
         // Limit velocity so it doesn't become too large
         velocity = Vector3.ClampMagnitude(velocity, maxSpeed);
-        Debug.Log(acceleration.magnitude);
         Thrusters.SetParameter("Velocity", velocity.magnitude*5);
 
         // Add velocity to vehicle's position
@@ -199,6 +198,7 @@ public class Ship : MonoBehaviour
         if(am.lives > 0)
         {
             manage.GetFMODAudio("Oof").start();
+            manage.GetFMODAudio("ShipExplosion").start();
 
             StartCoroutine(MakeImmortal());
         }

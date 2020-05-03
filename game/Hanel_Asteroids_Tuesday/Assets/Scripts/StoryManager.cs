@@ -44,22 +44,22 @@ public class StoryManager : MonoBehaviour {
     FMOD.Studio.EventInstance dialogue;
     FMOD.Studio.EventInstance proceed;
     FMOD.Studio.EventInstance skip;
-
+    FMOD.Studio.EventInstance dialogueSnap;
     GameObject music;
-    #endregion
 
     //FMOD
     [Range(0.0f, 1.0f)]
     public float volume;
-    private Bus musicBus;
+    #endregion
+
+
 
     // Use this for initialization
     void Start ()
     {
         //initializing
-        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Music");
-        musicBus.setVolume(1.0f);
         dialogue = FMODUnity.RuntimeManager.CreateInstance("event:/Dialogue/Dialogue");
+        dialogueSnap = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Dialogue Playing");
         proceed = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Proceed");
         skip = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Skip");
         sounds = GetComponents<AudioSource>();
@@ -98,15 +98,8 @@ public class StoryManager : MonoBehaviour {
             enterPresses++;
             if (enterPresses >= 0)
             {
-                SetMusicBusVolume(0.2f);
-            }
-            else
-            {
-                SetMusicBusVolume(1.0f);
-            }
-            if(enterPresses >= 13)
-            {
-                Destroy(music);
+                Debug.Log("Get Quieter");
+                dialogueSnap.start();
             }
             StartCoroutine(Dialogue());
         }
@@ -199,11 +192,6 @@ public class StoryManager : MonoBehaviour {
         }
     }
 
-    //set music volume (0-1)
-    public void SetMusicBusVolume(float volume)
-    {
-        musicBus.setVolume(volume);
-    }
 
     //progress through the story
     private void OnGUI()
@@ -248,7 +236,7 @@ public class StoryManager : MonoBehaviour {
             "Da, it's very nice. When do we get to big red planet? ", //10
             "Wait, big red planet? Aren’t you going to Mars? The big orange one? With the spot on it?",
             "That’s Jupiter you moldy pierogi!",
-            "Steve what the heck, how do you work at NASA?",
+            "Steve, what the heck, how do you work at NASA?",
             "Uhhh…",
             "Wait… was that an asteroid?", //15
             "Oh no! Steve! Steve! We’re going through the asteroid belt!",

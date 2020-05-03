@@ -23,6 +23,7 @@ public class SceneManager : MonoBehaviour {
 
     //gui for lives, points, level
     public GUIStyle status;
+    public GUIStyle pauStatus;
 
     int points;
 
@@ -35,6 +36,8 @@ public class SceneManager : MonoBehaviour {
     FMOD.Studio.EventInstance SmallExplosion;
     FMOD.Studio.EventInstance Oof;
     FMOD.Studio.EventInstance Pew;
+    FMOD.Studio.EventInstance ShipExplosion;
+    FMOD.Studio.EventInstance pauSnap;
     FMODUnity.StudioEventEmitter musicEmitter;
     #endregion
 
@@ -61,18 +64,14 @@ public class SceneManager : MonoBehaviour {
         Respawn = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Respawn");
         BigExplosion = FMODUnity.RuntimeManager.CreateInstance("event:/FX/BigExplosion");
         SmallExplosion = FMODUnity.RuntimeManager.CreateInstance("event:/FX/SmallExplosion");
+        ShipExplosion = FMODUnity.RuntimeManager.CreateInstance("event:/FX/ShipExplosion");
         Oof = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Oof");
         Pew = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Pew");
+        pauSnap = FMODUnity.RuntimeManager.CreateInstance("snapshot:/Paused");
         #endregion
 
 
         paused = false;
-
-        //instationtiatingng
-        masterBus = FMODUnity.RuntimeManager.GetBus("bus:/");
-        musicBus = FMODUnity.RuntimeManager.GetBus("bus:/Music");
-        SetMasterBusVolume(1.0f);
-        SetMusicBusVolume(0.7f);
         
         
         aud = GetComponents<AudioSource>();
@@ -107,11 +106,11 @@ public class SceneManager : MonoBehaviour {
             paused = !paused;
             if (paused)
             {
-                SetMusicBusVolume(0.2f);
+                pauSnap.start();
             }
             else
             {
-                SetMusicBusVolume(0.7f);
+                pauSnap.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             }
         }
     }
@@ -154,11 +153,20 @@ public class SceneManager : MonoBehaviour {
     //the status bar
     public void OnGUI()
     {
+
         GUI.Box(new Rect(10,10,150,100), "Score: " + points, status);
         
         GUI.Box(new Rect(10, 60, 150, 100), "Level: " + level, status);
 
         GUI.Box(new Rect(10, 110, 150, 100), "Lives: " + am.lives, status);
+
+        if (paused)
+        {
+            GUI.Box(new Rect(10, 160, 300, 300), "PAUSED", pauStatus);
+        }
+
+
+        
     }
 
     //for decor, make stars, spawn 30 randomly
@@ -170,7 +178,6 @@ public class SceneManager : MonoBehaviour {
         float width = height * cam.aspect;
 
 
-
         for (int i = 0; i < 30; i++)
         {
             position = new Vector3(Random.Range(-width / 2, width / 2), Random.Range(-height / 2, height / 2), 0);
@@ -178,18 +185,6 @@ public class SceneManager : MonoBehaviour {
             stars.Add(star);
             //Debug.Log(star);
         }
-    }
-
-    //set master volume (0-1)
-    public void SetMasterBusVolume(float volume)
-    {
-        masterBus.setVolume(volume);
-    }
-
-    //set music volume (0-1)
-    public void SetMusicBusVolume(float volume)
-    {
-        musicBus.setVolume(volume);
     }
 
     public FMOD.Studio.EventInstance GetFMODAudio(string title)
@@ -210,6 +205,9 @@ public class SceneManager : MonoBehaviour {
                 break;
             case "Pew":
                 return Pew;
+                break;
+            case "ShipExplosion":
+                return ShipExplosion;
                 break;
             default:
                 return Respawn;

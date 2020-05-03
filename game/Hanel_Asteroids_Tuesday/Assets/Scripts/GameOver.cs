@@ -35,12 +35,19 @@ public class GameOver : MonoBehaviour {
     //for some reason it was double-saving scores. this fixed it.
     bool ranOnce;
 
+    #region audio
     AudioSource[] aud;
+    FMOD.Studio.EventInstance proceed;
+    FMOD.Studio.EventInstance skip;
+    #endregion
 
     // Use this for initialization
     void Start() {
 
         //initializing
+        proceed = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Proceed");
+        skip = FMODUnity.RuntimeManager.CreateInstance("event:/FX/Skip");
+
         score = PlayerPrefs.GetInt("Score", 5);
         hs = new List<string>();
         initInput = "";
@@ -76,7 +83,7 @@ public class GameOver : MonoBehaviour {
 
     public IEnumerator Skip()
     {
-        aud[1].Play();
+        skip.start();
         yield return new WaitForSeconds(0.5f);
         UnityEngine.SceneManagement.SceneManager.LoadScene("Story");
     }
@@ -160,7 +167,7 @@ public class GameOver : MonoBehaviour {
         //adds spaces if they give less than three letters (crashes otherwise)
         if (Input.GetKeyDown(KeyCode.Return))
         {
-            aud[0].Play();
+            proceed.start();
             while (initInput.Length < 3)
             {
                 initInput += " ";
