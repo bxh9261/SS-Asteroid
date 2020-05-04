@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{5129c5bd-d52c-492a-9af0-c3c482c6f595}">
 		<property name="assetPath">
-			<value>258348__tristan-lohengrin__spaceship-atmosphere-03.flac</value>
+			<value>ambience.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
